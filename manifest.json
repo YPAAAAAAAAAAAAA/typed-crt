@@ -1,0 +1,20 @@
+{
+  "id": "typed-crt",
+  "title": {
+    "en": "typed-crt",
+    "zh": "打字显像管"
+  },
+  "intro": {
+    "en": "A pocket CRT that types glowing text. Tap the glass to replay, swipe for another card, and turn the corner knob for phosphor color and glow.",
+    "zh": "一台会打字的掌心显像管。轻点玻璃重播，左右滑动换卡片，转动角落旋钮可切换荧光颜色与辉光。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/crt.css",
+    "vendor/crt.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/typed-crt"
+}

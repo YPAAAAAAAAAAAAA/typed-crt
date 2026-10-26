@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>typed-crt</title>
+<link rel="stylesheet" href="crt.css">
+<link rel="prefetch" href="LICENSE.txt">
+</head>
+<body>
+<canvas id="glass"></canvas>
+<button type="button" id="knob" aria-expanded="false" aria-controls="tray" aria-label="Tube controls"><span class="notch"></span></button>
+<div id="tray" hidden>
+  <p class="lbl">Phosphor</p>
+  <div id="swatches" class="swatches"></div>
+  <p class="lbl">Glow</p>
+  <div id="glows" class="chips row3"></div>
+  <p class="lbl">Card</p>
+  <div id="cards" class="chips row2"></div>
+  <p class="how">Tap the glass to replay. Swipe sideways for another card.</p>
+  <p class="fine">idea after @steve245270533 (steve245270533/typed-crt); clean-room implementation, no code copied</p>
+</div>
+<p id="stamp">idea after @steve245270533 (steve245270533/typed-crt); clean-room implementation, no code copied</p>
+<script src="crt.js"></script>
+</body>
+</html>
